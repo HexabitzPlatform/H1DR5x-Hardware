@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3302,7 +3302,7 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 </library>
 <library name="hexabitz_connectors" urn="urn:adsk.eagle:library:20064578">
 <packages>
-<package name="HEXABIT_17.32_NO_P6_P7_P12" urn="urn:adsk.eagle:footprint:20064580/1" locally_modified="yes" library_version="16" library_locally_modified="yes">
+<package name="HEXABIT_17.32_NO_P6_P7_P12" urn="urn:adsk.eagle:footprint:20064580/1" library_version="17" library_locally_modified="yes">
 <wire x1="-8.66" y1="-15" x2="8.66" y2="-15" width="0.1" layer="20"/>
 <wire x1="8.66" y1="-15" x2="17.32" y2="0" width="0.1" layer="20"/>
 <wire x1="17.32" y1="0" x2="8.66" y2="15" width="0.1" layer="20"/>
@@ -3319,8 +3319,8 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <smd name="PAD_PD11" x="-16.52" y="0" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
 <smd name="PAD_PU1" x="12.39" y="7.15" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 <smd name="PAD_PD1" x="12.39" y="7.15" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
-<smd name="PAD_PU2" x="12.23125" y="-7.15" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-<smd name="PAD_PD2" x="12.23125" y="-7.15" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<smd name="PAD_PU2" x="12.39" y="-7.15" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<smd name="PAD_PD2" x="12.39" y="-7.15" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
 <smd name="PAD_PU3" x="0" y="-14.31" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 <smd name="PAD_PD3" x="0" y="-14.31" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
 <smd name="PAD_PU4" x="-12.39" y="-7.15" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
@@ -3408,12 +3408,12 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <vertex x="-17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="1">
-<vertex x="13.943125" y="5.795" curve="-180"/>
-<vertex x="12.11625" y="9.04625"/>
+<vertex x="14.34" y="5.16" curve="-180"/>
+<vertex x="11.64" y="9.84"/>
 </polygon>
 <polygon width="0.1" layer="16">
-<vertex x="13.943125" y="5.795" curve="-180"/>
-<vertex x="12.11625" y="9.04625"/>
+<vertex x="14.34" y="5.16" curve="-180"/>
+<vertex x="11.64" y="9.84"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="13.84" y="6.03" curve="-180"/>
@@ -3424,12 +3424,12 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <vertex x="12.14" y="8.97"/>
 </polygon>
 <polygon width="0.1" layer="1">
-<vertex x="13.86375" y="-5.95375" curve="180"/>
-<vertex x="11.9575" y="-9.205"/>
+<vertex x="14.34" y="-5.16" curve="180"/>
+<vertex x="11.64" y="-9.84"/>
 </polygon>
 <polygon width="0.1" layer="16">
-<vertex x="13.86375" y="-5.95375" curve="180"/>
-<vertex x="11.9575" y="-9.205"/>
+<vertex x="14.34" y="-5.16" curve="180"/>
+<vertex x="11.64" y="-9.84"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="13.84" y="-6.03" curve="180"/>
@@ -3440,12 +3440,12 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <vertex x="12.14" y="-8.97"/>
 </polygon>
 <polygon width="0.1" layer="1">
-<vertex x="1.8542" y="-15" curve="180"/>
-<vertex x="-1.8542" y="-15"/>
+<vertex x="2.7" y="-15" curve="180"/>
+<vertex x="-2.7" y="-15"/>
 </polygon>
 <polygon width="0.1" layer="16">
-<vertex x="1.8542" y="-15" curve="180"/>
-<vertex x="-1.8542" y="-15"/>
+<vertex x="2.7" y="-15" curve="180"/>
+<vertex x="-2.7" y="-15"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="1.7" y="-15" curve="180"/>
@@ -3456,12 +3456,12 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <vertex x="-1.7" y="-15"/>
 </polygon>
 <polygon width="0.1" layer="1">
-<vertex x="-12.036875" y="-9.205" curve="180"/>
-<vertex x="-13.86375" y="-5.95375"/>
+<vertex x="-11.64" y="-9.84" curve="180"/>
+<vertex x="-14.34" y="-5.16"/>
 </polygon>
 <polygon width="0.1" layer="16">
-<vertex x="-12.036875" y="-9.205" curve="180"/>
-<vertex x="-13.86375" y="-5.95375"/>
+<vertex x="-11.64" y="-9.84" curve="180"/>
+<vertex x="-14.34" y="-5.16"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="-12.14" y="-8.97" curve="180"/>
@@ -3472,12 +3472,12 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <vertex x="-13.84" y="-6.03"/>
 </polygon>
 <polygon width="0.1" layer="1">
-<vertex x="-12.036875" y="9.205" curve="-180"/>
-<vertex x="-13.943125" y="5.95375"/>
+<vertex x="-11.64" y="9.84" curve="-180"/>
+<vertex x="-14.34" y="5.16"/>
 </polygon>
 <polygon width="0.1" layer="16">
-<vertex x="-12.036875" y="9.205" curve="-180"/>
-<vertex x="-13.943125" y="5.95375"/>
+<vertex x="-11.64" y="9.84" curve="-180"/>
+<vertex x="-14.34" y="5.16"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="-12.14" y="8.97" curve="-180"/>
@@ -3490,14 +3490,14 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 </package>
 </packages>
 <packages3d>
-<package3d name="HEXABIT_17.32_NO_P6_P7_P12" urn="urn:adsk.eagle:package:20064634/2" type="empty" library_version="16" library_locally_modified="yes">
+<package3d name="HEXABIT_17.32_NO_P6_P7_P12" urn="urn:adsk.eagle:package:20064634/2" type="empty" library_version="17" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="HEXABIT_17.32_NO_P6_P7_P12"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="HEXABIT_NO_P6_P7_P12" urn="urn:adsk.eagle:symbol:20064602/1" library_version="16">
+<symbol name="HEXABIT_NO_P6_P7_P12" urn="urn:adsk.eagle:symbol:20064602/1" locally_modified="yes" library_version="17" library_locally_modified="yes">
 <wire x1="-20.32" y1="-33.02" x2="-10.16" y2="-33.02" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-33.02" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-2.54" x2="-20.32" y2="-2.54" width="0.254" layer="94"/>
@@ -3522,22 +3522,22 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <pin name="GND3" x="-5.08" y="-15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND4" x="-5.08" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND5" x="-5.08" y="-25.4" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="SU1" x="22.86" y="30.48" visible="pin" length="middle" rot="R180"/>
-<pin name="SU2" x="22.86" y="25.4" visible="pin" length="middle" rot="R180"/>
 <pin name="SU3" x="22.86" y="20.32" visible="pin" length="middle" rot="R180"/>
 <pin name="SU4" x="22.86" y="15.24" visible="pin" length="middle" rot="R180"/>
 <pin name="SU5" x="22.86" y="10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="SD1" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="SD2" x="22.86" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="SU1" x="22.86" y="30.48" visible="pin" length="middle" rot="R180"/>
+<pin name="SU2" x="22.86" y="25.4" visible="pin" length="middle" rot="R180"/>
 <pin name="SD3" x="22.86" y="-15.24" visible="pin" length="middle" rot="R180"/>
 <pin name="SD4" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
 <pin name="SD5" x="22.86" y="-25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="SD1" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="SD2" x="22.86" y="-10.16" visible="pin" length="middle" rot="R180"/>
 <text x="-20.32" y="38.1" size="1.778" layer="95">&gt;NAME</text>
 <text x="-20.32" y="35.56" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="HEXABIT_?_NO_P6_P7_P12" urn="urn:adsk.eagle:component:20064654/2" prefix="P" library_version="16" library_locally_modified="yes">
+<deviceset name="HEXABIT_?_NO_P6_P7_P12" urn="urn:adsk.eagle:component:20064654/2" prefix="P" library_version="17" library_locally_modified="yes">
 <description>&lt;b&gt;Hexabitz Hexagon Module Connector&lt;/b&gt;&lt;p&gt;Hexagon side length = 17.32mm.&lt;p&gt;The following ports are removed: P6 P7 P12</description>
 <gates>
 <gate name="G$1" symbol="HEXABIT_NO_P6_P7_P12" x="0" y="0"/>
@@ -3549,16 +3549,16 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <connect gate="G$1" pin="GND3" pad="PAD_PD9"/>
 <connect gate="G$1" pin="GND4" pad="PAD_PD10"/>
 <connect gate="G$1" pin="GND5" pad="PAD_PD11"/>
-<connect gate="G$1" pin="SD1" pad="PAD_PD1"/>
-<connect gate="G$1" pin="SD2" pad="PAD_PD2"/>
-<connect gate="G$1" pin="SD3" pad="PAD_PD3"/>
-<connect gate="G$1" pin="SD4" pad="PAD_PD4"/>
-<connect gate="G$1" pin="SD5" pad="PAD_PD5"/>
-<connect gate="G$1" pin="SU1" pad="PAD_PU1"/>
-<connect gate="G$1" pin="SU2" pad="PAD_PU2"/>
-<connect gate="G$1" pin="SU3" pad="PAD_PU3"/>
-<connect gate="G$1" pin="SU4" pad="PAD_PU4"/>
-<connect gate="G$1" pin="SU5" pad="PAD_PU5"/>
+<connect gate="G$1" pin="SD1" pad="PAD_PD4"/>
+<connect gate="G$1" pin="SD2" pad="PAD_PD5"/>
+<connect gate="G$1" pin="SD3" pad="PAD_PD1"/>
+<connect gate="G$1" pin="SD4" pad="PAD_PD2"/>
+<connect gate="G$1" pin="SD5" pad="PAD_PD3"/>
+<connect gate="G$1" pin="SU1" pad="PAD_PU4"/>
+<connect gate="G$1" pin="SU2" pad="PAD_PU5"/>
+<connect gate="G$1" pin="SU3" pad="PAD_PU1"/>
+<connect gate="G$1" pin="SU4" pad="PAD_PU2"/>
+<connect gate="G$1" pin="SU5" pad="PAD_PU3"/>
 <connect gate="G$1" pin="VDD2" pad="PAD_PU8"/>
 <connect gate="G$1" pin="VDD3" pad="PAD_PU9"/>
 <connect gate="G$1" pin="VDD4" pad="PAD_PU10"/>
@@ -6189,16 +6189,6 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <text x="147.235" y="99.9" size="1.778" layer="95">VDD\VDDA Coupling</text>
 <text x="243.84" y="146.05" size="1.778" layer="95">BOOT</text>
 <text x="179.4328" y="4.9414" size="1.9304" layer="101" font="vector">Obada Albasha</text>
-<text x="53.34" y="151.765" size="1.27" layer="95">P2*</text>
-<text x="53.34" y="156.845" size="1.27" layer="95">P1</text>
-<text x="53.34" y="161.925" size="1.27" layer="95">P5</text>
-<text x="53.34" y="167.005" size="1.27" layer="95">P4</text>
-<text x="53.34" y="172.085" size="1.27" layer="95">P3</text>
-<text x="53.34" y="116.205" size="1.27" layer="95">P2*</text>
-<text x="53.34" y="121.285" size="1.27" layer="95">P1</text>
-<text x="53.34" y="126.365" size="1.27" layer="95">P5</text>
-<text x="53.34" y="131.445" size="1.27" layer="95">P4</text>
-<text x="53.34" y="136.525" size="1.27" layer="95">P3</text>
 </plain>
 <instances>
 <instance part="SUPPLY9" gate="G$1" x="163.83" y="54.61" smashed="yes" rot="R270">
@@ -6600,9 +6590,9 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <label x="218.44" y="153.67" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SD2"/>
-<wire x1="67.945" y1="132.08" x2="81.915" y2="132.08" width="0.1524" layer="91"/>
-<label x="68.58" y="132.715" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SD4"/>
+<wire x1="67.945" y1="121.92" x2="81.915" y2="121.92" width="0.1524" layer="91"/>
+<label x="68.58" y="122.555" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART5_TX" class="0">
@@ -6612,9 +6602,9 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <label x="218.44" y="156.21" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SU2"/>
-<wire x1="67.945" y1="167.64" x2="81.915" y2="167.64" width="0.1524" layer="91"/>
-<label x="67.945" y="168.275" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SU4"/>
+<wire x1="67.945" y1="157.48" x2="81.915" y2="157.48" width="0.1524" layer="91"/>
+<label x="67.945" y="158.115" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART4_TX" class="0">
@@ -6624,9 +6614,9 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <label x="130.81" y="151.13" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SU4"/>
-<wire x1="67.945" y1="157.48" x2="81.915" y2="157.48" width="0.1524" layer="91"/>
-<label x="67.945" y="158.115" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SU1"/>
+<wire x1="67.945" y1="172.72" x2="81.915" y2="172.72" width="0.1524" layer="91"/>
+<label x="67.945" y="173.355" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART4_RX" class="0">
@@ -6636,9 +6626,9 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <label x="130.81" y="148.59" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SD4"/>
-<wire x1="67.945" y1="121.92" x2="81.915" y2="121.92" width="0.1524" layer="91"/>
-<label x="68.58" y="122.555" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SD1"/>
+<wire x1="67.945" y1="137.16" x2="81.915" y2="137.16" width="0.1524" layer="91"/>
+<label x="68.58" y="137.795" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART2_TX" class="0">
@@ -6648,9 +6638,9 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <label x="130.81" y="146.05" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SU5"/>
-<wire x1="67.945" y1="152.4" x2="81.915" y2="152.4" width="0.1524" layer="91"/>
-<label x="67.945" y="153.035" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SU2"/>
+<wire x1="67.945" y1="167.64" x2="81.915" y2="167.64" width="0.1524" layer="91"/>
+<label x="67.945" y="168.275" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART2_RX" class="0">
@@ -6660,9 +6650,9 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <label x="130.81" y="143.51" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SD5"/>
-<wire x1="67.945" y1="116.84" x2="81.915" y2="116.84" width="0.1524" layer="91"/>
-<label x="68.58" y="117.475" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SD2"/>
+<wire x1="67.945" y1="132.08" x2="81.915" y2="132.08" width="0.1524" layer="91"/>
+<label x="68.58" y="132.715" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART3_TX" class="0">
@@ -6672,9 +6662,9 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <label x="131.445" y="123.19" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SU1"/>
-<wire x1="67.945" y1="172.72" x2="81.915" y2="172.72" width="0.1524" layer="91"/>
-<label x="67.945" y="173.355" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SU3"/>
+<wire x1="67.945" y1="162.56" x2="81.915" y2="162.56" width="0.1524" layer="91"/>
+<label x="67.945" y="163.195" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART3_RX" class="0">
@@ -6684,9 +6674,9 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <label x="131.445" y="120.65" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SD1"/>
-<wire x1="67.945" y1="137.16" x2="81.915" y2="137.16" width="0.1524" layer="91"/>
-<label x="68.58" y="137.795" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SD3"/>
+<wire x1="67.945" y1="127" x2="81.915" y2="127" width="0.1524" layer="91"/>
+<label x="68.58" y="127.635" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART6_RX" class="0">
@@ -6696,9 +6686,9 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <label x="217.805" y="173.99" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SD3"/>
-<wire x1="67.945" y1="127" x2="81.915" y2="127" width="0.1524" layer="91"/>
-<label x="68.58" y="127.635" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SD5"/>
+<wire x1="67.945" y1="116.84" x2="81.915" y2="116.84" width="0.1524" layer="91"/>
+<label x="68.58" y="117.475" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART6_TX" class="0">
@@ -6708,9 +6698,9 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt;
 <label x="217.805" y="171.45" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SU3"/>
-<wire x1="67.945" y1="162.56" x2="81.915" y2="162.56" width="0.1524" layer="91"/>
-<label x="67.945" y="163.195" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SU5"/>
+<wire x1="67.945" y1="152.4" x2="81.915" y2="152.4" width="0.1524" layer="91"/>
+<label x="67.945" y="153.035" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA" class="0">
